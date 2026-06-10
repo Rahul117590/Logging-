@@ -1,0 +1,7 @@
+1.create new repository in the git hub ,clone it , init in vs-code
+2.import logging
+3.lebel define 
+4.format
+-logging.basicConfig(filename='myfile.log',level=logging.DEBUG,format='%(asctime)s-%(levelname)s-%(message)s')
+5.filename
+-logging.basicConfig(filename='myfile.log',level=logging.DEBUG,format='%(asctime)s-%(levelname)s-%(message)s',force=True)
