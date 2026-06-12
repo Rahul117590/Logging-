@@ -6,3 +6,26 @@
 5.filename
 -logging.basicConfig(filename='myfile.log',level=logging.DEBUG,format='%(asctime)s-%(levelname)s-%(message)s',force=True)
 6. if you wanaa made file for the storing the value of loggig then we insure that there name must be end with .loggig
+7. make the program using logging
+8. make the program of factorial using the logging
+9. logging handler
+10. make the file handler 
+  -import logging
+  make the logging.basicConfig(filename='filename',level=logging.Debug,
+                                format='%(name)s-%(asctime)s-%(levelname)s-%(message)s)
+  -make the filehander object and take file handler from logging
+  -setlevel -->formatter.setLevel(logging.DEBUG)
+  -setfomat -->logging.Formatter('%(name)s-%(asctime)s-%(levelname)s-%(message)s')
+  -store formate into foramte variable
+  -called the getlogger and add the addHandler()- logging.getLogger('')andHandler()
+11. steam handler
+  - import logging
+  - make the logging.basicConfig(filename='filename',level=logging.DEBUG,
+                                foramt='%(name)s-%(asctime)s-%(level)s-%(message)s)
+  - make the console log object and take stream handler from logging9
+  - setlevel  -->console_log.setLevel(logging.DEBUG)
+  - setformat -->logging.Formatter('%(name)s-%(asctime)s-%(levelname)s-%(message)s')
+  - store formate into formate varible
+  - called the getlogger and add the addHandler()- logging.getLogger('')andHandler()
+  - called the logger by make the variable like-loger1=logging.getLogger('user3')
+  --- you show that message is print on the console rather than file 
