@@ -29,3 +29,7 @@
   - called the getlogger and add the addHandler()- logging.getLogger('')andHandler()
   - called the logger by make the variable like-loger1=logging.getLogger('user3')
   --- you show that message is print on the console rather than file 
+
+12. debuging
+  - import ipdb
+  - use ipdb
