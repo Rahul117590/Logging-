@@ -33,3 +33,12 @@
 12. debuging
   - import ipdb
   - use ipdb
+
+13. os module
+  - the os module in python provide a way to interact with the operating system
+    allowing you to perform system-level task such as file and directory manipulation
+    environment variable management and process handing
+
+  -it acts as an intefacae between python script and the underlying operation system providing 
+  funcitonality that is portable across different operating system like Window,macOS, and Linux
+  
